@@ -1,0 +1,35 @@
+body {color:white;
+    text-align: center;
+    background-size: cover;
+    background-image: url(Burna-Boy-1-1.jpg);
+    background-repeat: no-repeat;
+    font-size: 20px;
+    background-color: #cccccc;
+}
+#survey-form {
+    background-color: cadetblue;
+background-attachment: fixed;
+width: 600px;
+margin:  100px auto;
+text-align: left;
+border-radius: 10px;
+padding: 20px 5px;
+float: right;
+}
+#tt{
+    width:500px;
+    border-radius:10px
+}
+#submit{
+    color: white;
+    background-color: green;
+    padding: 10px;
+    text-align: center;
+    width:500px;
+    border-radius:10px
+}
+#title
+ {font-size: 30px;
+        color: grey;}
+    
+
