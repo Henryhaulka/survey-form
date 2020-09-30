@@ -1,3 +1,7 @@
+
+*{
+    box-sizing: border-box;
+}
 body {color:white;
     text-align: center;
     background-size: cover;
@@ -5,16 +9,18 @@ body {color:white;
     background-repeat: no-repeat;
     font-size: 20px;
     background-color: #cccccc;
+    
 }
 #survey-form {
     background-color: cadetblue;
 background-attachment: fixed;
-width: 600px;
+width: 700px;
 margin:  100px auto;
 text-align: left;
 border-radius: 10px;
-padding: 20px 5px;
+padding: 5px 20px;
 float: right;
+padding-top: 20px;
 }
 #tt{
     width:500px;
@@ -26,10 +32,62 @@ float: right;
     padding: 10px;
     text-align: center;
     width:500px;
-    border-radius:10px
+    border-radius:10px;
+    margin-left: 100px;
+    transition: 1s ease;
+    
+}
+#submit:hover{
+    opacity: 0.4;
+    background-color: lightgreen;
+    box-shadow: 2px 2px 5px greenyellow;
+}
+.md:after {
+display: table;
+content: "";
+clear: both;
+padding: 7px;
+
+}
+.md label{
+    width: 25%;
+    text-align: left;
+    float: left;
+    
+}
+.md input{
+    width: 75%;
+    float: left;
+    
 }
 #title
  {font-size: 30px;
         color: grey;}
+input {
+    outline: none;
     
-
+} 
+#bc {
+    padding-top: 5px;
+}   
+@media only screen and (max-width:700px){
+    #survey-form{
+        float: none;
+        margin: auto;
+        max-width: 70%;
+        margin: auto;
+    }
+    #tt{
+        width:90%;
+    }
+        #submit{  
+            width: 50%;
+            text-align: center; 
+            margin-left: 25%; 
+        }
+        .md label { width: 100%;
+}
+.md input{
+    width: 75%;
+}
+}
